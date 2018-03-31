@@ -28,7 +28,7 @@ personName = personName.lower()
 if personName in personInfo:
     print (personInfo[personName])
 else:
-    print ('Ошибка! (Такого имени нет)')
+    print ('Ошибка! Такого имени не найдено')
 
 
 
